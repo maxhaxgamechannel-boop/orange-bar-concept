@@ -31,6 +31,10 @@ ul{list-style:none}
   padding:12px 16px;border-radius:10px;font-weight:700;text-decoration:none}
 .skip:focus{top:12px}
 
+/* ---------- плашка демо-версії ---------- */
+.demo-bar{background:var(--orange);color:#120a04;font-size:14px;line-height:1.4;text-align:center;
+  padding:calc(8px + var(--safe-t)) var(--pad) 8px}
+
 /* ---------- верхня панель ---------- */
 .top{position:sticky;top:0;z-index:40;background:rgba(13,12,11,.9);
   backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
